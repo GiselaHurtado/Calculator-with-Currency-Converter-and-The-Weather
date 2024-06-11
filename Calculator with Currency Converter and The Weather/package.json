@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test:unit": "vitest"
+    "test:unit": "vitest",
+    "sass": "sass ./src/sass/styles.scss ./public/css/styles.css",
+    "sass-w": "sass --watch ./src/sass/styles.scss ./public/css/styles.css"
+   
   },
   "dependencies": {
     "pinia": "^2.1.7",
